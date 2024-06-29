@@ -11,7 +11,7 @@ Token Transfers: Users can transfer tokens between addresses using standard ERC2
 Token Burning: Users can burn (destroy) their own tokens, reducing the total token supply.
 
 # Execution
-o deploy and interact with the ERC20 token contract using Remix, follow these steps:
+To deploy and interact with the ERC20 token contract using Remix, follow these steps:
 
 Deployment:
 

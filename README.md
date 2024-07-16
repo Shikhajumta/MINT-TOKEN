@@ -43,8 +43,8 @@ contract MyToken is ERC20, Ownable {
   function transferFrom(address from, address to, uint256 amount) public override returns (bool) {
     return super.transferFrom(from, to, amount);
   }
-}```
-
+}
+```
 
 Compile:
 Go to the "Solidity Compiler" tab.

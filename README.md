@@ -12,9 +12,8 @@ This Solidity code defines an ERC20 token contract. ERC20 is a standard for toke
 Open Remix in your web browser.
 Create a new file and paste the following code into it:
 Code snippet
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
-
+SPDX-License-Identifier: MIT
+```pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
@@ -44,8 +43,8 @@ contract MyToken is ERC20, Ownable {
   function transferFrom(address from, address to, uint256 amount) public override returns (bool) {
     return super.transferFrom(from, to, amount);
   }
-}
-Use code with caution.
+}```
+
 
 Compile:
 Go to the "Solidity Compiler" tab.
